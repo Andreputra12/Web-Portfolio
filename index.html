@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Portfolio</title>
+
+    <!-- MY STYLE -->
+    <link rel="stylesheet" href="style/style.css" />
+
+    <!-- MY FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- MY ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="#" class="logo">PORTFOLIO</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#tech">Tech</a></li>
+          <li><a href="#certificate">Certificate</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero-container">
+        <div class="box-1">
+          <p class="tagline">Hi I'm Front End Developer</p>
+          <h1>Andre Putra Wijaya</h1>
+          <p class="description">
+            Frontend developers passionate about creating <br />
+            interactive and user-friendly web experiences. <br />
+            Let's collaborate together.
+          </p>
+          <div class="cta">
+            <button class="cta1">
+              <a href="#certificate">Lihat Certificate</a>
+            </button>
+            <button class="cta2">
+              <a href="https://www.linkedin.com/in/andreputraw/"
+                >Let's Connect</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="box-2">
+          <img
+            src="assets/profile-portfolio.jpg"
+            alt="profile"
+            class="profile-img"
+          />
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="about-container" id="about">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            I am enthusiastic about web development, especially front end
+            developer with expertise in Javascript, Tailwind CSS, and
+            Bootstrap5. My educational background is informatics engineering who
+            really likes technology, programming, and problem solving. Currently
+            learning responsive and user friendly web development. and always
+            eager to explore new technologies and improve my skills.
+          </p>
+        </div>
+      </section>
+
+      <!-- TECH SECTION -->
+      <section class="tech-container" id="tech">
+        <div>
+          <h2>Technology</h2>
+          <div class="icon-container">
+            <i class="devicon-html5-plain colored"></i>
+            <i class="devicon-css3-plain colored"></i>
+            <i class="devicon-tailwindcss-plain colored"></i>
+            <i class="devicon-bootstrap-plain colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-nodejs-plain colored"></i>
+            <i class="devicon-figma-plain colored"></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATE SECTION -->
+      <section class="Certificate-container" id="certificate">
+        <div>
+          <h2>My Certificates</h2>
+          <div class="cert-container" id="cert-list"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- CONTACT SECTION -->
+    <aside class="contact-container" id="contact">
+      <div>
+        <div class="contact">
+          <div class="contact-text-box">
+            <h2>Let's Build Something Amazing Together</h2>
+            <p>"Open For Collaboration, Freelance, and New Opportunities"</p>
+
+            <form class="contact-form">
+              <div class="data">
+                <label for="fullname">Full Name</label>
+                <input
+                  type="text"
+                  id="fullname"
+                  placeholder="Your Name"
+                  name="fullname"
+                  required
+                />
+              </div>
+
+              <div class="data">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="You@Example.com"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div class="data pesan">
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message"></textarea>
+              </div>
+
+              <button class="btn">Submit</button>
+            </form>
+          </div>
+
+          <div class="contact-img-box" role="img"></div>
+        </div>
+      </div>
+    </aside>
+
+    <footer>
+      <p>&copy; 2025 All Rights Reserved By Andre Putra Wijaya</p>
+      <div class="social-links">
+        <a
+          href="https://github.com/Andreputra12"
+          target="_blank"
+          aria-label="Github"
+          class="Github"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/andreputraw/"
+          target="_blank"
+          aria-label="LinkedIn"
+          class="linkedin"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
