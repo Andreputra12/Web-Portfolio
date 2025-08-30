@@ -423,6 +423,11 @@ footer {
     width: 80%;
   }
 
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .hero-container {
     flex-wrap: wrap-reverse;
     justify-content: center;
@@ -465,8 +470,53 @@ footer {
   .logo {
     margin-bottom: 48px;
   }
+}
 
-  /* .contact {
-    flex-wrap: wrap-reverse;
-  } */
+@media (max-width: 400px) {
+  .profile-img {
+    width: auto;
+    height: 300px;
+  }
+
+  .box-1 {
+    width: 90%;
+  }
+
+  .about-container {
+    padding: 0;
+  }
+
+  .about-container p {
+    font-size: 15px;
+    margin-bottom: 96px;
+  }
+
+  .tech-container {
+    padding: 0;
+  }
+
+  .icon-container {
+    font-size: 40px;
+    gap: 10px;
+    /* justify-content: flex-start; */
+  }
+
+  .contact-container {
+    width: 90%;
+  }
+
+  .data {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .data input,
+  .data textarea {
+    width: 100%;
+  }
+
+  footer {
+    width: 95%;
+    padding: 20px 0 0 0;
+  }
 }
